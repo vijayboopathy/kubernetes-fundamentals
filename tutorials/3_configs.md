@@ -43,7 +43,7 @@ Namespaces offers separation of resources running on the same physical infrastru
 
 Lets create a namespace called **dev**  
 
-file: dev_ns.yaml
+file: dev-ns.yaml
 ```
 kind: Namespace
 apiVersion: v1
@@ -56,7 +56,7 @@ metadata:
 To create namespace
 
 ```
-kubectl apply -f dev_ns.yaml
+kubectl apply -f dev-ns.yaml
 ```
 
 
